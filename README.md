@@ -1,11 +1,14 @@
-# Harding Point : Engagement Manager
+
+ # GRAX : Engagement Manager
  
+ ![GRAX : Engagement Manager](https://static.wixstatic.com/media/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png/v1/crop/x_0,y_3,w_800,h_345/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png "GRAX : Engagement Manager")
  
-[Engagement Manager](http://www.HardingPoint.com) allows you to quickly ochestrate Salesforce data, customer engagement, 
-device, backoffice, and app engagement. The [Engagement Graph](http://www.HardingPoint.com) is used within the 
-[Engagement Manager](http://www.HardingPoint.com) for deep analytics, artificial intelligence, reporting, and App 
-Development. The more data and relationships you link with your [Engagement Graph](http://www.HardingPoint.com) the 
-quicker it builds, learns (via AI), and reacts (via Engagement Manager) from your [Neural Network](http://www.HardingPoint.com).
+
+[GRAX : Engagement Manager](https://www.hardingpoint.com/grax) allows you to quickly ochestrate Salesforce data, customer engagement, 
+device, backoffice, and app engagement. The [Engagement Graph](https://www.hardingpoint.com/grax) is used within the 
+[GRAX : Engagement Manager](https://www.hardingpoint.com/grax) for deep analytics, artificial intelligence, reporting, and App 
+Development. The more data and relationships you link with your [Engagement Graph](https://www.hardingpoint.com/grax) the 
+quicker it builds, learns (via AI), and reacts (via Engagement Manager) from your [Neural Network](https://www.hardingpoint.com/grax).
 
 * [`Engagement Manager`](https://engagementmanager.herokuapp.com) - <b>Instructions Below</b>
 * [`Graf Connect`](https://graphconnect.hardingpoint.com/) - <b>Instructions Below</b>
@@ -79,7 +82,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 Ready to use Engagement Manager and Engagement Graph
 
 
-## Engagement Manager
+## GRAX : Engagement Manager
 
 ###Credentials
 
