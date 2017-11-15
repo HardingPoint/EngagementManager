@@ -44,6 +44,13 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Field Name: `GatewayToken`
         1. Click `Next`
         1. Click `Save & New`
+    1. Choose Type `Text` 
+        1. Click `Next`
+        1. Field Label: `LicenseToken`
+        1. Length: `255`
+        1. Field Name: `LicenseToken`
+        1. Click `Next`
+        1. Click `Save & New`
     1. Choose Type `URL`
         1. Click `Next`
         1. Field Label: `graphdburl`
@@ -56,6 +63,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. Click on New Default Organization Level Value
     1. Update `GatewayToken` with `ENGAGEMENTGRAPH_GATEWAYTOKEN` from Heroku Config Variables
     1. Update `ApiToken` with `ENGAGEMENTGRAPH_APITOKEN` from Heroku Config Variables
+    1. Update `LicenseToken` with `ENGAGEMENTGRAPH_LICENSETOKEN` from Heroku Config Variables
     1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
     <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->
 

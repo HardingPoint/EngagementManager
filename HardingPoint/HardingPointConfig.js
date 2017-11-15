@@ -12,7 +12,8 @@ module.exports = {
     APIURL: process.env.ENGAGEMENTMANAGER_APIURL || process.env.ENGAGEMENTGRAPH_APIURL || "https://prod.hardingpoint.com/v9.3/api",
     GATEWAYTOKEN: process.env.ENGAGEMENTMANAGER_GATEWAYTOKEN || process.env.ENGAGEMENTGRAPH_GATEWAYTOKEN,
     APITOKEN: process.env.ENGAGEMENTMANAGER_APITOKEN || process.env.ENGAGEMENTGRAPH_APITOKEN,
-    ENVIRONMENT: process.env.ENGAGEMENTMANAGER_ENVIRONMENT || process.env.ENGAGEMENTGRAPH_ENVIRONMENT || "", // Backwards compatible of ""
+    LICENSETOKEN: process.env.ENGAGEMENTGRAPH_LICENSETOKEN,
+    ENVIRONMENT: process.env.ENGAGEMENTMANAGER_ENVIRONMENT || process.env.ENGAGEMENTGRAPH_ENVIRONMENT || "production",
     SAVE: "orchestration/save",
     GET:  "orchestration/get",
     LOGEXCEPTION: "log/exception",

@@ -24,7 +24,8 @@ function getHeaders(jsonObject,contenttype){
         'Content-Length' : Buffer.byteLength(jsonObject, 'utf8'),
         'authorizationToken' : HardingPointConfig.APITOKEN,
         'x-api-key' : HardingPointConfig.GATEWAYTOKEN,
-        'environment' : HardingPointConfig.ENVIRONMENT
+        'environment' : HardingPointConfig.ENVIRONMENT,
+        'licensetoken' : HardingPointConfig.LICENSETOKEN
     };
     return postheaders;
 }
