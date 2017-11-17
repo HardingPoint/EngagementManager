@@ -15,10 +15,6 @@
     }
   ],
   "env": {
-    "ENGAGEMENTMANAGER_ENVIRONMENT":{
-      "description": "If you run multiple environments you can group servers into Production, QA, Development (or any name of your choosing)",
-      "value": "Production"
-    },
     "ENGAGEMENTMANAGER_READONLYUSER": {
       "description": "Readonly User Name",
       "value": "readonly"
@@ -27,13 +23,9 @@
       "description": "Readonly User Name",
       "value": "HardingPoint!"
     },
-    "ENGAGEMENTMANAGER_URL": {
-      "description": "Harding Point API URL",
-      "value": "test.hardingpoint.com"
-    },
-    "ENGAGEMENTMANAGER_APIVERSION": {
-      "description": "Harding Point API Version",
-      "value": "v9.3"
+    "ENGAGEMENTMANAGER_ENVIRONMENT":{
+      "description": "If you run multiple environments you can group servers into Production, QA, Development (or any name of your choosing)",
+      "value": "Production"
     },
     "ENGAGEMENTMANAGER_CACHE_DIR": {
       "description": "Temporary cache for Heroku ephemeral file system",
