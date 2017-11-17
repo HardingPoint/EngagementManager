@@ -18,7 +18,7 @@ module.exports = {
     GET:  "orchestration/get",
     LOGEXCEPTION: "log/exception",
     VERSION: process.env.ENGAGEMENTMANAGER_APIVERSION || process.env.ENGAGEMENTGRAPH_APIVERSION || "v9.3",
-    URL: process.env.ENGAGEMENTMANAGER_URL || process.env.ENGAGEMENTGRAPH_URL || "prod.hardingpoint.com",
+    URL: process.env.ENGAGEMENTMANAGER_URL || process.env.ENGAGEMENTGRAPH_URL || "test.hardingpoint.com",
     CACHEDIR: process.env.ENGAGEMENTMANAGER_CACHE_DIR || process.env.ENGAGEMENTGRAPH_CACHE_DIR || "./HardingPoint/cache/",
     CACHE: process.env.ENGAGEMENTMANAGER_CACHE_ENABLED || process.env.ENGAGEMENTGRAPH_CACHE_ENABLED || "true",
     ADMINUSER: process.env.ENGAGEMENTMANAGER_ADMINUSER || process.env.ENGAGEMENTGRAPH_ADMINUSER || "admin",
