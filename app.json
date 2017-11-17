@@ -28,8 +28,8 @@
       "value": "HardingPoint!"
     },
     "ENGAGEMENTMANAGER_URL": {
-      "description": "Harding Point API URL (prod, qa, dev)",
-      "value": "prod.hardingpoint.com"
+      "description": "Harding Point API URL",
+      "value": "test.hardingpoint.com"
     },
     "ENGAGEMENTMANAGER_APIVERSION": {
       "description": "Harding Point API Version",
