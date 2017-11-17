@@ -9,7 +9,7 @@
  **/
 
 module.exports = {
-    APIURL: process.env.ENGAGEMENTMANAGER_APIURL || process.env.ENGAGEMENTGRAPH_APIURL || "https://prod.hardingpoint.com/v9.3/api",
+    APIURL: process.env.ENGAGEMENTMANAGER_APIURL || process.env.ENGAGEMENTGRAPH_APIURL || "https://test.hardingpoint.com/v9.3/api",
     GATEWAYTOKEN: process.env.ENGAGEMENTGRAPH_GATEWAYTOKEN || process.env.ENGAGEMENTMANAGER_GATEWAYTOKEN,
     APITOKEN: process.env.ENGAGEMENTGRAPH_APITOKEN || process.env.ENGAGEMENTMANAGER_APITOKEN,
     LICENSETOKEN: process.env.ENGAGEMENTGRAPH_LICENSETOKEN,
@@ -25,4 +25,4 @@ module.exports = {
     ADMINPWD: process.env.ENGAGEMENTMANAGER_ADMINPWD || process.env.ENGAGEMENTGRAPH_ADMINPWD || process.env.ADMINPWD,
     READONLYUSER: process.env.ENGAGEMENTMANAGER_READONLYUSER || process.env.ENGAGEMENTGRAPH_READONLYUSER || "readonly",
     READONLYPWD: process.env.ENGAGEMENTMANAGER_READONLYPWD || process.env.ENGAGEMENTGRAPH_READONLYPWD || process.env.READONLYPWD
-}
+};
