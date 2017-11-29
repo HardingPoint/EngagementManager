@@ -22,12 +22,12 @@ var clone = require("clone");
 
 var defaultContext = {
     page: {
-        title: "Harding Point : Engagement Manager",
+        title: "GRAX : Engagement Manager",
         favicon: "favicon.ico",
         tabicon: "red/images/engagementmanager.png"
     },
     header: {
-        title: "Harding Point : Engagement Manager",
+        title: "GRAX : Engagement Manager",
         image: "red/images/engagementmanager.png"
     },
     asset: {

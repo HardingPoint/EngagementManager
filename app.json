@@ -10,7 +10,7 @@
       "as": "GraphConnect"
     },
     {
-      "plan": "engagementgraph:enterprise",
+      "plan": "engagementgraph:hpt-test",
       "as": "ENGAGEMENTGRAPH"
     }
   ],
