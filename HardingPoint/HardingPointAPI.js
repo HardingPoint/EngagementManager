@@ -19,6 +19,8 @@ const hardingPointAPISave = HardingPointConfig.APIURL + HardingPointConfig.SAVE;
 const hardingPointAPILogException = HardingPointConfig.APIURL + HardingPointConfig.LOGEXCEPTION;
 
 function getHeaders(jsonObject,contenttype){
+
+    debug.write("HardingPointAPI.getHeaders", "ENVIRONMENT: " + HardingPointConfig.ENVIRONMENT);
     var postheaders = {
         'Content-Type' : contenttype,
         'Content-Length' : Buffer.byteLength(jsonObject, 'utf8'),
