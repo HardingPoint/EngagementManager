@@ -53,12 +53,14 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Field Name: `LicenseToken`
         1. Click **Next**
         1. Click **Save & New**
-    1. Choose Type `URL`
+    1. Choose Type `URL` - Update from Heroku settings 
         1. Click **Next**
         1. Field Label: `graphdburl`
         1. Field Name: `graphdburl`
         1. Click **Next**
         1. Click **Save**
+	
+	Note: Make sure the graphdburl is http NOT https
 
  6. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce</a> 
     1. In Salesforce, click on Manage
@@ -211,11 +213,16 @@ supports loading multiple Salesforce instances into a single graph database. Bel
     
     MATCH (n {  sfdcorgid: '00D390000005LxxEAE', sfdcid: '0013900001ZglUaAAJ' })
     DETACH DELETE n
-    
-    
-    
+    
+# Troubleshooting command line tools
+
+Manually repush to DB (via Apex code) specify object type:
+Execute in Salesforce Dev Console
+Debug (Ctrl + E)
+
+	HardingPointBatch.ProcessHistory('Object_type');
+
 <hr/>    
-    
-    
+ 
 [Visit Heroku Add-On Marketplace](https://elements.heroku.com/addons/engagementgraph)
     
