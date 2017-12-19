@@ -4,26 +4,28 @@
  ![GRAX : Engagement Manager](https://static.wixstatic.com/media/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png/v1/crop/x_0,y_3,w_800,h_345/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png "GRAX : Engagement Manager")
  
 
-[GRAX : Engagement Manager](https://www.hardingpoint.com/grax) allows you to quickly ochestrate Salesforce data, customer engagement, 
-device, backoffice, and app engagement. The [Engagement Graph](https://www.hardingpoint.com/grax) is used within the 
-[GRAX : Engagement Manager](https://www.hardingpoint.com/grax) for deep analytics, artificial intelligence, reporting, and App 
-Development. The more data and relationships you link with your [Engagement Graph](https://www.hardingpoint.com/grax) the 
-quicker it builds, learns (via AI), and reacts (via Engagement Manager) from your [Neural Network](https://www.hardingpoint.com/grax).
+**GRAX:** Engagement Manager allows you to quickly orchestrate Salesforce data, customer engagement, 
+device, backoffice, and app engagement. The Engagement Graph is used within the 
+**GRAX:** Engagement Manager for deep analytics, artificial intelligence, reporting, and App 
+Development. The more data and relationships you link with your Engagement Graph the 
+quicker it builds, learns (via AI), and reacts (via Engagement Manager) from your Neural Network.
 
 * [`Engagement Manager`](https://engagementmanager.herokuapp.com) - <b>Instructions Below</b>
-* [`Graf Connect`](https://graphconnect.hardingpoint.com/) - <b>Instructions Below</b>
+* [`Graph Connect`](https://graphconnect.hardingpoint.com/) - <b>Instructions Below</b>
 * `Neural Network & AI` - Additional Package with your Engagement Graph
 * `Analytics & Reporting` - Additional Package with your Engagement Graph
 
 ## Deployment & Configuration Instructions
 
-1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+ 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+	 1. Specify your App name
+	 2. Deploy App
 
-1. <a href="https://login.salesforce.com" target="_new">Login to Salesforce</a> or <a href="https://developer.salesforce.com/signup" target="_new">Create Salesforce Developer Edition</a> 
+ 3. <a href="https://login.salesforce.com" target="_new">Login to Salesforce</a> or <a href="https://developer.salesforce.com/signup" target="_new">Create Salesforce Developer Edition</a> 
 
-1. <a href="https://login.salesforce.com/lightning/switcher?destination=classic" target="_new">Switch to Salesforce Classic</a> 
+ 4. <a href="https://login.salesforce.com/lightning/switcher?destination=classic" target="_new">Switch to Salesforce Classic</a> 
         
-1. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Create a Salesforce Custom Setting</a>
+ 5. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Create a Salesforce Custom Setting</a>
     1. Click `New` Salesforce.com Custom Setting 
         1. Label: `HardingPoint` 
         1. Object Name: `HardingPoint`
@@ -58,20 +60,25 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Click `Next`
         1. Click `Save`
 
-1. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings</a> 
-    1. Click on Manage
+ 6. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce</a> 
+    1. In Salesforce, click on Manage
     1. Click on New Default Organization Level Value
+    1. In your Heroku app created in step 1: 
+	    2. Go to Settings 
+	    2. Click Reveal Config Vars 
+![enter image description here](https://static.wixstatic.com/media/7e84ec_d42208b2d3394c4e887650700210c8c3~mv2.png?dn=2017-12-19_11-05-17.png)
     1. Update `GatewayToken` with `ENGAGEMENTGRAPH_GATEWAYTOKEN` from Heroku Config Variables
     1. Update `ApiToken` with `ENGAGEMENTGRAPH_APITOKEN` from Heroku Config Variables
     1. Update `LicenseToken` with `ENGAGEMENTGRAPH_LICENSETOKEN` from Heroku Config Variables
     1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
     <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->
 
-1. Confirm Login -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
+ 7. Confirm Login -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
+	 Use the credentials as specified in the Heroku Config Variables
     1. `Login via Salesforce - Normal Instance` - Use this for Developer or Production
     1. `Login via Salesforce - Sandbox Instance` - Sandbox Access Only
 
-1. <a href="https://login.salesforce.com/setup/ui/tab/integ/integrationTabWizard.jsp?retURL=%2Fsetup%2Fui%2Fcustomtabs.jsp%3Fsetupid%3DCustomTabs%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DDevTools&setupid=CustomTabs">Add Salesforce Graph Connect Tab</a> 
+ 8. <a href="https://login.salesforce.com/setup/ui/tab/integ/integrationTabWizard.jsp?retURL=%2Fsetup%2Fui%2Fcustomtabs.jsp%3Fsetupid%3DCustomTabs%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DDevTools&setupid=CustomTabs">Add Salesforce Graph Connect Tab</a> 
     1. Right Click Link - `Open in new Tab` -> <a href="https://login.salesforce.com/setup/ui/tab/integ/integrationTabWizard.jsp?retURL=%2Fsetup%2Fui%2Fcustomtabs.jsp%3Fsetupid%3DCustomTabs%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DDevTools&setupid=CustomTabs">Add Salesforce Tab</a>
     1. Click `Next`
     1. Tab Label: `Graph Connect`
@@ -81,7 +88,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Copy -> https://graphconnect.hardingpoint.com?embedded=true&orgid={!Organization.Id}&userid={!User.Id}&email={!User.Email}&phone={!User.Phone}&mobilephone={!User.MobilePhone}&companyname={!Organization.Name}&phone={!Organization.Phone}
         1. Paste in `Link URL`
         1. Click Save
-    1. Choose Visibility
+    1. Choose Visibility / Objects to connect
         1.  ![Harding Point Connect](https://static.wixstatic.com/media/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png/v1/fill/w_1730,h_998,al_c,usm_0.66_1.00_0.01/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png)
         
 
