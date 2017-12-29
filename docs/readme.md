@@ -17,7 +17,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 ## Deployment & Configuration Instructions
 
- 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+ 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HardingPoint/EngagementManager/blob/master)
 	 1. Specify your App name
 	 2. Deploy App
 
