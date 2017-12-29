@@ -1,5 +1,7 @@
 
- # GRAX : Engagement Manager
+# This document will be depreciated soon. <a href="https://github.com/HardingPoint/EngagementManager/tree/master/docs" target="_new">New Location</a>
+
+# GRAX : Engagement Manager
  
  ![GRAX : Engagement Manager](https://static.wixstatic.com/media/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png/v1/crop/x_0,y_3,w_800,h_345/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png "GRAX : Engagement Manager")
  
