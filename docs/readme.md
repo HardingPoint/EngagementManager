@@ -91,29 +91,33 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. Update `ApiToken` with `ENGAGEMENTGRAPH_APITOKEN` from Heroku Config Variables
     1. Update `LicenseToken` with `ENGAGEMENTGRAPH_LICENSETOKEN` from Heroku Config Variables
     1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
-    <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->
+    <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->  
     
-    Note: Make sure the graphdburl is http NOT https.  
-    
-   
+    Note: Make sure the graphdburl is `http`; NOT https. 
+ 
     <a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
     
 
  5. Confirm Login & Accept Terms -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
 	 Use the credentials as specified in the Heroku Config Variables
     1. `Login via Salesforce - Normal Instance` - Use this for Developer or Production
-    1. `Login via Salesforce - Sandbox Instance` - Sandbox Access Only
+    1. `Login via Salesforce - Sandbox Instance` - Sandbox Access Only  
+    
+    <a href="https://giphy.com/gifs/xULW8zzgQLnvnXrQJi/fullscreen" target="_blank"><img src="https://media.giphy.com/media/xULW8zzgQLnvnXrQJi/giphy.gif"/></a>
+    
 
- 6. <a href="https://login.salesforce.com/setup/ui/tab/integ/integrationTabWizard.jsp?retURL=%2Fsetup%2Fui%2Fcustomtabs.jsp%3Fsetupid%3DCustomTabs%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DDevTools&setupid=CustomTabs">Add Salesforce Graph Connect Tab</a> 
-    1. Right Click Link - `Open in new Tab` -> <a href="https://login.salesforce.com/setup/ui/tab/integ/integrationTabWizard.jsp?retURL=%2Fsetup%2Fui%2Fcustomtabs.jsp%3Fsetupid%3DCustomTabs%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DDevTools&setupid=CustomTabs">Add Salesforce Tab</a>
+ 6. Add Salesforce GRAX Connect Tab
+    1. <a href="https://login.salesforce.com/setup/ui/tab/integ/integrationTabWizard.jsp?retURL=%2Fsetup%2Fui%2Fcustomtabs.jsp%3Fsetupid%3DCustomTabs%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DDevTools&setupid=CustomTabs" target="_new" >Add Salesforce Tab</a>
     1. Click `Next`
-    1. Tab Label: `Graph Connect`
+    1. Tab Label: `GRAX Connect`
     1. Tab Style: `Compass`
-        1. Click `Next`
+    1. Click `Next`
     1. Button or Link URL
-        1. Copy -> https://graphconnect.hardingpoint.com?embedded=true&orgid={!Organization.Id}&userid={!User.Id}&email={!User.Email}&phone={!User.Phone}&mobilephone={!User.MobilePhone}&companyname={!Organization.Name}&phone={!Organization.Phone}
+        1. Copy -> `https://graphconnect.hardingpoint.com?embedded=true&orgid={!Organization.Id}&userid={!User.Id}&email={!User.Email}&phone={!User.Phone}&mobilephone={!User.MobilePhone}&companyname={!Organization.Name}&phone={!Organization.Phone}`
         1. Paste in `Link URL`
-        1. Click Save
+    	1. Click Save  
+	<a href="https://giphy.com/gifs/3o752nFvB9fsXWbF3W/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o752nFvB9fsXWbF3W/giphy.gif"/></a>
+	
 	
 ### 3. Connect Salesforce Objects to GRAX
 
