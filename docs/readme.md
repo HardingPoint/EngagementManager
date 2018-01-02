@@ -19,7 +19,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 ### 1. Deploy GRAX Application to Heroku 
 
-  1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HardingPoint/EngagementManager/blob/master)
+   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HardingPoint/EngagementManager/blob/master)
 	 1. Specify your App name
 	 2. Deploy App
 
@@ -36,6 +36,9 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Setting Type: `Hierarchy/Public`
         1. Visibility: Public
         1. Click **Save**
+	http://www.giphy.com/gifs/3o751RCGhvdsJhpmqQ
+	
+	
     1. Click New - Custom Field in HardingPoint Custom Setting
         1. Type `Text`
         1. Field Name: `ApiToken`
@@ -43,6 +46,8 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Field Name: `ApiToken`
         1. Click **Next**
         1. Click **Save & New**
+	http://www.giphy.com/gifs/xULW8qduN0EW5oMvaU
+	
     1. Choose Type `Text` 
         1. Click **Next**
         1. Field Label: `GatewayToken`
@@ -50,6 +55,8 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Field Name: `GatewayToken`
         1. Click **Next**
         1. Click **Save & New**
+	http://www.giphy.com/gifs/3oFzmgJZO6StlF2aE8
+	
     1. Choose Type `Text` 
         1. Click **Next**
         1. Field Label: `LicenseToken`
@@ -57,7 +64,10 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Field Name: `LicenseToken`
         1. Click **Next**
         1. Click **Save & New**
-    1. Choose Type `URL` - Update from Heroku settings 
+	http://www.giphy.com/gifs/l0HUoqOXWsQEh18Va
+	
+	
+    1. Choose Type `URL`  
         1. Click **Next**
         1. Field Label: `graphdburl`
         1. Field Name: `graphdburl`
@@ -66,8 +76,8 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 	
 	Note: Make sure the graphdburl is http NOT https. (Add testing instructions at this point?) 
 
- 4. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce</a> 
-    1. In Salesforce, click on Manage
+ 4. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce (Build --> Develop --> Custom Settings</a> 
+    1. Under Custom Settings for HardingPoint, click on Manage
     1. Click on New Default Organization Level Value
     1. In your Heroku app created in step 1: 
 	    2. Go to Settings 
@@ -78,6 +88,10 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. Update `LicenseToken` with `ENGAGEMENTGRAPH_LICENSETOKEN` from Heroku Config Variables
     1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
     <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->
+    
+    Note: Make sure the graphdburl is http NOT https.
+    
+    http://www.giphy.com/gifs/3o751PqVyabriQV0qY
 
  5. Confirm Login -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
 	 Use the credentials as specified in the Heroku Config Variables
