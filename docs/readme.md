@@ -1,14 +1,12 @@
 
  # GRAX by Hardingpoint
  
- ![GRAX : Engagement Manager](https://static.wixstatic.com/media/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png/v1/crop/x_0,y_3,w_800,h_345/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png "GRAX : Engagement Manager")
- 
-
-**GRAX** allows you to quickly orchestrate Salesforce data, customer engagement, 
+ **GRAX** allows you to quickly orchestrate Salesforce data, customer engagement, 
 device, backoffice, and app engagement. The Engagement Graph is used within 
 **GRAX**  for deep analytics, artificial intelligence, reporting, and App 
 Development. The more data and relationships you link with your Engagement Graph the 
 quicker it builds, learns (via AI), and reacts (via Engagement Manager) from your Neural Network.
+
 
 * [`Grax Build`](https://engagementmanager.herokuapp.com) - <b>Instructions Below</b>
 * [`Graph Connect`](https://graphconnect.hardingpoint.com/) - <b>Instructions Below</b>
@@ -17,9 +15,15 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 ## Deployment & Configuration Instructions
 
+ ![GRAX : Engagement Manager](https://static.wixstatic.com/media/7e84ec_a96cc67ac9e5400590667612bd507eb7~mv2.png?dn=Grax+Installation.png "GRAX Installation")
+
+### Deploy GRAX Application to Heroku 
+
  1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HardingPoint/EngagementManager/blob/master)
 	 1. Specify your App name
 	 2. Deploy App
+
+### Salesforce Configuration
 
  3. <a href="https://login.salesforce.com" target="_new">Login to Salesforce</a> or <a href="https://developer.salesforce.com/signup" target="_new">Create Salesforce Developer Edition</a> 
 
@@ -90,6 +94,8 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Copy -> https://graphconnect.hardingpoint.com?embedded=true&orgid={!Organization.Id}&userid={!User.Id}&email={!User.Email}&phone={!User.Phone}&mobilephone={!User.MobilePhone}&companyname={!Organization.Name}&phone={!Organization.Phone}
         1. Paste in `Link URL`
         1. Click Save
+	
+### Connect Salesforce Objects to GRAX
 
 1. Choose Visibility / Objects to connect
         1.  ![Harding Point Connect](https://static.wixstatic.com/media/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png/v1/fill/w_1730,h_998,al_c,usm_0.66_1.00_0.01/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png)
