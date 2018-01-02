@@ -35,8 +35,9 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Object Name: `HardingPoint`
         1. Setting Type: `Hierarchy/Public`
         1. Visibility: Public
-        1. Click **Save**
-	http://www.giphy.com/gifs/3o751RCGhvdsJhpmqQ
+        1. Click **Save**  
+	
+	    <a href="https://www.giphy.com/gifs/3o751RCGhvdsJhpmqQ/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751RCGhvdsJhpmqQ/giphy.gif"/></a>
 	
 	
     1. Click New - Custom Field in HardingPoint Custom Setting
@@ -45,8 +46,9 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Field Length: `255`
         1. Field Name: `ApiToken`
         1. Click **Next**
-        1. Click **Save & New**
-	http://www.giphy.com/gifs/xULW8qduN0EW5oMvaU
+        1. Click **Save & New**  
+	<a href="https://www.giphy.com/gifs/xULW8qduN0EW5oMvaU/fullscreen" target="_blank"><img src="https://media.giphy.com/media/xULW8qduN0EW5oMvaU/giphy.gif"/></a>
+	
 	
     1. Choose Type `Text` 
         1. Click **Next**
@@ -54,8 +56,9 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Length: `255`
         1. Field Name: `GatewayToken`
         1. Click **Next**
-        1. Click **Save & New**
-	http://www.giphy.com/gifs/3oFzmgJZO6StlF2aE8
+        1. Click **Save & New**  
+	<a href="https://www.giphy.com/gifs/3oFzmgJZO6StlF2aE8/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3oFzmgJZO6StlF2aE8/giphy.gif"/></a>
+	
 	
     1. Choose Type `Text` 
         1. Click **Next**
@@ -63,8 +66,9 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Length: `255`
         1. Field Name: `LicenseToken`
         1. Click **Next**
-        1. Click **Save & New**
-	http://www.giphy.com/gifs/l0HUoqOXWsQEh18Va
+        1. Click **Save & New**  
+	<a href="https://www.giphy.com/gifs/l0HUoqOXWsQEh18Va/fullscreen" target="_blank"><img src="https://media.giphy.com/media/l0HUoqOXWsQEh18Va/giphy.gif"/></a>
+	
 	
 	
     1. Choose Type `URL`  
@@ -89,11 +93,13 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
     <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->
     
-    Note: Make sure the graphdburl is http NOT https.
+    Note: Make sure the graphdburl is http NOT https.  
     
-    http://www.giphy.com/gifs/3o751PqVyabriQV0qY
+   
+    <a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
+    
 
- 5. Confirm Login -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
+ 5. Confirm Login & Accept Terms -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
 	 Use the credentials as specified in the Heroku Config Variables
     1. `Login via Salesforce - Normal Instance` - Use this for Developer or Production
     1. `Login via Salesforce - Sandbox Instance` - Sandbox Access Only
