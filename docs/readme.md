@@ -126,7 +126,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1.  ![Harding Point Connect](https://static.wixstatic.com/media/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png/v1/fill/w_1730,h_998,al_c,usm_0.66_1.00_0.01/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png)  
         <a href="https://giphy.com/gifs/3oFzmorOpLAyNiMeQM/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3oFzmorOpLAyNiMeQM/giphy.gif"/></a>
 	
-You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
+## You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
 	
 
 ### 4. GRAX Show 
