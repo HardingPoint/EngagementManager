@@ -86,6 +86,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. In your Heroku app created in step 1: 
 	    2. Go to Settings 
 	    2. Click Reveal Config Vars 
+	    2. Update `GRAPHCONNECT_URL` from `https` to `http`
 ![enter image description here](https://static.wixstatic.com/media/7e84ec_d42208b2d3394c4e887650700210c8c3~mv2.png?dn=2017-12-19_11-05-17.png)
     1. Update `GatewayToken` with `ENGAGEMENTGRAPH_GATEWAYTOKEN` from Heroku Config Variables
     1. Update `ApiToken` with `ENGAGEMENTGRAPH_APITOKEN` from Heroku Config Variables
@@ -93,7 +94,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
     <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->  
     
-    Note: Make sure the graphdburl is `http`; NOT https. 
+    Note: Please verify that sure the `GRAPHCONNECT_URL` is `http`; NOT `https`
  
     <a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
     
