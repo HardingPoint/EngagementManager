@@ -1,19 +1,19 @@
 
- # GRAX : Engagement Manager
+ # GRAX by Hardingpoint
  
  ![GRAX : Engagement Manager](https://static.wixstatic.com/media/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png/v1/crop/x_0,y_3,w_800,h_345/e58cbc_9a4653c845bb454f9b32aa2aa10767e5~mv2.png "GRAX : Engagement Manager")
  
 
-**GRAX:** Engagement Manager allows you to quickly orchestrate Salesforce data, customer engagement, 
-device, backoffice, and app engagement. The Engagement Graph is used within the 
-**GRAX:** Engagement Manager for deep analytics, artificial intelligence, reporting, and App 
+**GRAX** allows you to quickly orchestrate Salesforce data, customer engagement, 
+device, backoffice, and app engagement. The Engagement Graph is used within 
+**GRAX**  for deep analytics, artificial intelligence, reporting, and App 
 Development. The more data and relationships you link with your Engagement Graph the 
 quicker it builds, learns (via AI), and reacts (via Engagement Manager) from your Neural Network.
 
-* [`Engagement Manager`](https://engagementmanager.herokuapp.com) - <b>Instructions Below</b>
+* [`Grax Build`](https://engagementmanager.herokuapp.com) - <b>Instructions Below</b>
 * [`Graph Connect`](https://graphconnect.hardingpoint.com/) - <b>Instructions Below</b>
-* `Neural Network & AI` - Additional Package with your Engagement Graph
-* `Analytics & Reporting` - Additional Package with your Engagement Graph
+* `Neural Network & AI` - Additional Package available with Grax
+* `Analytics & Reporting` - Additional Package available with Grax
 
 ## Deployment & Configuration Instructions
 
@@ -60,7 +60,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Click **Next**
         1. Click **Save**
 	
-	Note: Make sure the graphdburl is http NOT https
+	Note: Make sure the graphdburl is http NOT https. (Add testing instructions at this point?) 
 
  6. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce</a> 
     1. In Salesforce, click on Manage
@@ -97,10 +97,10 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 # Completed 
 
-Ready to use Engagement Manager and Engagement Graph
+Ready to use Grax : Build and Grax : Show
 
 
-## GRAX : Engagement Manager
+## GRAX : Relate
 
 ###Credentials
 
@@ -131,7 +131,7 @@ Ready to use Engagement Manager and Engagement Graph
         1. You should see your object listed; Click on it (ex Account)
         
         
-### Reproducing Engagement Graph From Above Image
+### Reproducing Grax Graph From Above Image
 
     1. Deploy Graph Connect Account (Did above already)
     1. Deploy Graph Connect Contact
