@@ -80,7 +80,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 	
 	Note: Make sure the graphdburl is http NOT https. (Add testing instructions at this point?) 
 
- 4. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce (Build --> Develop --> Custom Settings</a> 
+ 4. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce (Build --> Develop --> Custom Settings)</a> 
     1. Under Custom Settings for HardingPoint, click on Manage
     1. Click on New Default Organization Level Value
     1. In your Heroku app created in step 1: 
@@ -119,13 +119,24 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 	<a href="https://giphy.com/gifs/3o752nFvB9fsXWbF3W/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o752nFvB9fsXWbF3W/giphy.gif"/></a>
 	
 	
-### 3. Connect Salesforce Objects to GRAX
+### 3. Connect Salesforce Objects to GRAX 
 
+ 1. Login via the GRAX Connect Tab created in the previous step
  1. Choose Visibility / Objects to connect
-        1.  ![Harding Point Connect](https://static.wixstatic.com/media/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png/v1/fill/w_1730,h_998,al_c,usm_0.66_1.00_0.01/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png)
-        
+        1.  ![Harding Point Connect](https://static.wixstatic.com/media/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png/v1/fill/w_1730,h_998,al_c,usm_0.66_1.00_0.01/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png)  
+        <a href="https://giphy.com/gifs/3oFzmorOpLAyNiMeQM/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3oFzmorOpLAyNiMeQM/giphy.gif"/></a>
+	
+You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
+	
 
-# Completed 
+### 4. GRAX Show 
+
+1. Go back to your Heroku Dashboard and into <YOUR_APP_NAME>
+1. Click Resources
+1. Click GrapheneDB
+    1. Scroll to bottom click `Launch` for Neo4j Browser
+    1. Click Icon in the Top Left Corner
+    1. You should see your object listed; Click on it (ex Account)
 
 Ready to use Grax : Build and Grax : Show
 
@@ -152,13 +163,7 @@ Ready to use Grax : Build and Grax : Show
 
 ![Harding Point Engagement Graph](https://static.wixstatic.com/media/983560_7563ad3d347646e1a792e19a2c14e44c~mv2_d_2754_1836_s_2.png/v1/fill/w_1545,h_1030,al_c,usm_0.66_1.00_0.01/983560_7563ad3d347646e1a792e19a2c14e44c~mv2_d_2754_1836_s_2.png "Harding Point Graph Connect")
     
-    
-    1. Go back to your Heroku Dashboard and into <YOUR_APP_NAME>
-    1. Click Resources
-    1. Click GrapheneDB
-        1. Scroll to bottom click `Launch` for Neo4j Browser
-        1. Click Icon in the Top Left Corner
-        1. You should see your object listed; Click on it (ex Account)
+ 
         
         
 ### Reproducing Grax Graph From Above Image
