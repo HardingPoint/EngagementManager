@@ -94,7 +94,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
     <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->  
     
-    Note: Please verify that sure the `GRAPHCONNECT_URL` is `http`; NOT `https`
+   <!-- Note: Please verify that sure the `GRAPHCONNECT_URL` is `http`; NOT `https` -->
  
     <a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
     
@@ -133,12 +133,12 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 ### 4. GRAX Build 
 
-1. Go back to your Heroku Dashboard and into <YOUR_APP_NAME>
-1. Click Resources
-1. Click GrapheneDB
-    1. Scroll to bottom click `Launch` for Neo4j Browser
-    1. Click Icon in the Top Left Corner
-    1. You should see your object listed; Click on it (ex Account)
+1. Go back to your Heroku Dashboard and find your GRAX Application
+
+(https://static.wixstatic.com/media/7e84ec_5d31014286fb4f8aa1f4975a4ed20cf0~mv2.png?dn=2018-01-03_16-20-19.png" GRAX Installation")
+
+Click on graphie
+
 
 Ready to use Grax : Build and Grax : Show
 
