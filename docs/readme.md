@@ -98,9 +98,10 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
  
     <a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
     
+    
 
  5. Confirm Login & Accept Terms -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
-	 Use the credentials as specified in the Heroku Config Variables
+	 [Use the credentials as specified in the Heroku Config Variables] - Remove? 
     1. `Login via Salesforce - Normal Instance` - Use this for Developer or Production
     1. `Login via Salesforce - Sandbox Instance` - Sandbox Access Only  
     
@@ -127,7 +128,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1.  ![Harding Point Connect](https://static.wixstatic.com/media/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png/v1/fill/w_1730,h_998,al_c,usm_0.66_1.00_0.01/983560_34b6e9735e6340d4bc37d4406c4ea43d~mv2_d_3104_1790_s_2.png)  
         <a href="https://giphy.com/gifs/3oFzmorOpLAyNiMeQM/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3oFzmorOpLAyNiMeQM/giphy.gif"/></a>
 	
-## You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
+#### You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
 	
 
 ### 4. GRAX Show 
@@ -151,21 +152,10 @@ Ready to use Grax : Build and Grax : Show
 1. Admin User/Pwd - ENGAGEMENTGRAPH_ADMINUSER / ENGAGEMENTGRAPH_ADMINPWD 
 1. Read Only User/Pwd - ENGAGEMENTMANAGER_READONLYUSER / ENGAGEMENTMANAGER_READONLYPWD
 
-<hr/>
-
-[Live Demo - Login with readonly/readonly](https://engagementmanager.herokuapp.com)
-
-[![Harding Point Engagement Manager](https://static.wixstatic.com/media/983560_c5c91d5d1280442180cb1cce09d1368e~mv2_d_2840_1450_s_2.png/v1/fill/w_2120,h_1000,al_c,usm_0.66_1.00_0.01/983560_c5c91d5d1280442180cb1cce09d1368e~mv2_d_2840_1450_s_2.png)](https://engagementmanager.herokuapp.com/)
-
-<br/>
-<br/>
-
 ### View Graph
 
 ![Harding Point Engagement Graph](https://static.wixstatic.com/media/983560_7563ad3d347646e1a792e19a2c14e44c~mv2_d_2754_1836_s_2.png/v1/fill/w_1545,h_1030,al_c,usm_0.66_1.00_0.01/983560_7563ad3d347646e1a792e19a2c14e44c~mv2_d_2754_1836_s_2.png "Harding Point Graph Connect")
     
- 
-        
         
 ### Reproducing Grax Graph From Above Image
 
@@ -261,4 +251,16 @@ Debug (Ctrl + E)
 <hr/>    
  
 [Visit Heroku Add-On Marketplace](https://elements.heroku.com/addons/engagementgraph)
-    
+
+
+# Demo: 
+
+<hr/>
+
+[Live Demo - Login with readonly/readonly](https://engagementmanager.herokuapp.com)
+
+[![Harding Point Engagement Manager](https://static.wixstatic.com/media/983560_c5c91d5d1280442180cb1cce09d1368e~mv2_d_2840_1450_s_2.png/v1/fill/w_2120,h_1000,al_c,usm_0.66_1.00_0.01/983560_c5c91d5d1280442180cb1cce09d1368e~mv2_d_2840_1450_s_2.png)](https://engagementmanager.herokuapp.com/)
+
+<br/>
+<br/>
+
