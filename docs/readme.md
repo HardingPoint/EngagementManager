@@ -131,7 +131,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 #### You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
 	
 
-### 4. GRAX Show 
+### 4. GRAX Build 
 
 1. Go back to your Heroku Dashboard and into <YOUR_APP_NAME>
 1. Click Resources
@@ -143,7 +143,6 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 Ready to use Grax : Build and Grax : Show
 
 
-## GRAX : Relate
 
 ###Credentials
 
@@ -165,7 +164,7 @@ Ready to use Grax : Build and Grax : Show
     1. Deploy Graph Connect Case
     
 
-### Querying Data
+### Querying Data (Grax : Discover) 
 
 When you deploy Graph Connect it automatically processes the history. Always use both sfdcorgid and sfdcid, as GraphConnect
 supports loading multiple Salesforce instances into a single graph database. Below are sample queries.
