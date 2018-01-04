@@ -15,7 +15,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 ## Deployment & Configuration Instructions
 
- ![GRAX : Engagement Manager](https://static.wixstatic.com/media/7e84ec_a96cc67ac9e5400590667612bd507eb7~mv2.png?dn=Grax+Installation.png "GRAX Installation")
+ ![GRAX : Engagement Manager](https://static.wixstatic.com/media/7e84ec_44f39af51cf14778853441032eb4af6c~mv2.png?dn=Grax+Installation_GITHUB.png "GRAX Installation")
 
 ### 1. Deploy GRAX Application to Heroku 
 
@@ -77,8 +77,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
         1. Field Name: `graphdburl`
         1. Click **Next**
         1. Click **Save**
-	
-	Note: Make sure the graphdburl is http NOT https. (Add testing instructions at this point?) 
+
 
  4. <a href="https://login.salesforce.com/setup/ui/listCustomSettings.apexp" target="_new">Update Custom Settings in Salesforce (Build --> Develop --> Custom Settings)</a> 
     1. Under Custom Settings for HardingPoint, click on Manage
@@ -96,7 +95,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     
    <!-- Note: Please verify that sure the `GRAPHCONNECT_URL` is `http`; NOT `https` -->
  
-    <a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
+<a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
     
     
 
@@ -251,15 +250,4 @@ Debug (Ctrl + E)
  
 [Visit Heroku Add-On Marketplace](https://elements.heroku.com/addons/engagementgraph)
 
-
-# Demo: 
-
-<hr/>
-
-[Live Demo - Login with readonly/readonly](https://engagementmanager.herokuapp.com)
-
-[![Harding Point Engagement Manager](https://static.wixstatic.com/media/983560_c5c91d5d1280442180cb1cce09d1368e~mv2_d_2840_1450_s_2.png/v1/fill/w_2120,h_1000,al_c,usm_0.66_1.00_0.01/983560_c5c91d5d1280442180cb1cce09d1368e~mv2_d_2840_1450_s_2.png)](https://engagementmanager.herokuapp.com/)
-
-<br/>
-<br/>
 
