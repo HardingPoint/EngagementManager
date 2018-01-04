@@ -1,5 +1,5 @@
 
- # GRAX by Hardingpoint
+ # GRAX by HardingPoint
  
  **GRAX** allows you to quickly orchestrate Salesforce data, customer engagement, 
 device, backoffice, and app engagement. The Engagement Graph is used within 
