@@ -20,8 +20,9 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 ### 1. Deploy GRAX Application to Heroku 
 
    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HardingPoint/EngagementManager/blob/master)
-	 1. Specify your App name
-	 2. Deploy App
+	 1. Click the `Deploy` button above to begin the GRAX deployment to your Heroku instance
+	 2. Specify your App name
+	 3. Deploy App
 
 ### 2. Salesforce Configuration
 
@@ -100,7 +101,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     
 
  5. Confirm Login & Accept Terms -> <a href="https://graphconnect.hardingpoint.com">https://graphconnect.hardingpoint.com</a> 
-	 [Use the credentials as specified in the Heroku Config Variables] - Remove? 
+	
     1. `Login via Salesforce - Normal Instance` - Use this for Developer or Production
     1. `Login via Salesforce - Sandbox Instance` - Sandbox Access Only  
     
@@ -120,7 +121,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 	<a href="https://giphy.com/gifs/3o752nFvB9fsXWbF3W/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o752nFvB9fsXWbF3W/giphy.gif"/></a>
 	
 	
-### 3. Connect Salesforce Objects to GRAX 
+### 3. Connect Salesforce Objects to GRAX (GRAX RELATE ) 
 
  1. Login via the GRAX Connect Tab created in the previous step
  1. Choose Visibility / Objects to connect
@@ -130,25 +131,15 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 #### You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
 	
 
-### 4. GRAX Build 
+### 4. GRAX Discover ?? (Naming) 
 
 1. Go back to your Heroku Dashboard and find your GRAX Application
 
-(https://static.wixstatic.com/media/7e84ec_5d31014286fb4f8aa1f4975a4ed20cf0~mv2.png?dn=2018-01-03_16-20-19.png" GRAX Installation")
+![Graphie](https://static.wixstatic.com/media/7e84ec_5d31014286fb4f8aa1f4975a4ed20cf0~mv2.png "Launch Graphie")
 
-Click on graphie
-
-
-Ready to use Grax : Build and Grax : Show
+Click on GrapheneDB to launch Neo4J browser
 
 
-
-###Credentials
-
-1. Click on "Settings" in your App in Heroku
-1. Click Reveal Config Vars
-1. Admin User/Pwd - ENGAGEMENTGRAPH_ADMINUSER / ENGAGEMENTGRAPH_ADMINPWD 
-1. Read Only User/Pwd - ENGAGEMENTMANAGER_READONLYUSER / ENGAGEMENTMANAGER_READONLYPWD
 
 ### View Graph
 
@@ -249,5 +240,17 @@ Debug (Ctrl + E)
 <hr/>    
  
 [Visit Heroku Add-On Marketplace](https://elements.heroku.com/addons/engagementgraph)
+
+
+## GRAX Engage
+
+Access GRAX Engage https://engagementmanager.herokuapp.com/red/#
+
+###Credentials
+
+1. Click on "Settings" in your App in Heroku
+1. Click Reveal Config Vars
+1. Admin User/Pwd - ENGAGEMENTGRAPH_ADMINUSER / ENGAGEMENTGRAPH_ADMINPWD 
+1. Read Only User/Pwd - ENGAGEMENTMANAGER_READONLYUSER / ENGAGEMENTMANAGER_READONLYPWD
 
 
