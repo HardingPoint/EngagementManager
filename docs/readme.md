@@ -10,8 +10,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 
 * [`Grax Build`](https://engagementmanager.herokuapp.com) - <b>Instructions Below</b>
 * [`Graph Connect`](https://graphconnect.hardingpoint.com/) - <b>Instructions Below</b>
-* `Neural Network & AI` - Additional Package available with Grax
-* `Analytics & Reporting` - Additional Package available with Grax
+
 
 ## Deployment & Configuration Instructions
 
@@ -20,6 +19,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 ### 1. Deploy GRAX Application to Heroku 
 
    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HardingPoint/EngagementManager/blob/master)
+	 
 	 1. Click the `Deploy` button above to begin the GRAX deployment to your Heroku instance
 	 2. Specify your App name
 	 3. Deploy App
@@ -84,17 +84,18 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
     1. Under Custom Settings for HardingPoint, click on Manage
     1. Click on New Default Organization Level Value
     1. In your Heroku app created in step 1: 
+	    
 	    2. Go to Settings 
 	    2. Click Reveal Config Vars 
-	    2. Update `GRAPHCONNECT_URL` from `https` to `http`
+	    
 ![enter image description here](https://static.wixstatic.com/media/7e84ec_d42208b2d3394c4e887650700210c8c3~mv2.png?dn=2017-12-19_11-05-17.png)
-    1. Update `GatewayToken` with `ENGAGEMENTGRAPH_GATEWAYTOKEN` from Heroku Config Variables
-    1. Update `ApiToken` with `ENGAGEMENTGRAPH_APITOKEN` from Heroku Config Variables
-    1. Update `LicenseToken` with `ENGAGEMENTGRAPH_LICENSETOKEN` from Heroku Config Variables
-    1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
-    <!-- 1. Update `APIURL` with `ENGAGEMENTGRAPH_APIURL` from Heroku Config Variables -->  
     
-   <!-- Note: Please verify that sure the `GRAPHCONNECT_URL` is `http`; NOT `https` -->
+    	1. Update `GatewayToken` with `ENGAGEMENTGRAPH_GATEWAYTOKEN` from Heroku Config Variables
+    	1. Update `ApiToken` with `ENGAGEMENTGRAPH_APITOKEN` from Heroku Config Variables
+    	1. Update `LicenseToken` with `ENGAGEMENTGRAPH_LICENSETOKEN` from Heroku Config Variables
+    	1. Update `graphdburl` with `GRAPHCONNECT_URL` from Heroku Config Variables (You can use any Neo4j URL)
+    
+
  
 <a href="https://giphy.com/gifs/3o751PqVyabriQV0qY/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o751PqVyabriQV0qY/giphy.gif"/></a>
     
@@ -131,13 +132,13 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 #### You have now deployed the Harding Point GRAX application to Heroku, configured Salesforce, added a GRAX Graph tab in Salesforce and are now ready to explore your data in your Neo4j Browser.
 	
 
-### 4. GRAX Discover ?? (Naming) 
+### 4. GRAX Discover 
 
 1. Go back to your Heroku Dashboard and find your GRAX Application
 
 ![Graphie](https://static.wixstatic.com/media/7e84ec_5d31014286fb4f8aa1f4975a4ed20cf0~mv2.png "Launch Graphie")
 
-Click on GrapheneDB to launch Neo4J browser
+Click on GrapheneDB to launch Neo4J browser. You are now able to view, query and analyze your Salesforce data. 
 
 
 
