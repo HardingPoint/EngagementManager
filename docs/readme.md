@@ -160,6 +160,10 @@ Click on GrapheneDB to launch Neo4J browser. You are now able to view, query and
 When you deploy Graph Connect it automatically processes the history. Always use both sfdcorgid and sfdcid, as GraphConnect
 supports loading multiple Salesforce instances into a single graph database. Below are sample queries.
 
+For further reading on how the query language Cypher is different than SQL:
+[`SQL to Cypher Guide`](https://neo4j.com/developer/guide-sql-to-cypher/)
+
+
 
 ##### Matching By Id
 
