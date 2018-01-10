@@ -249,7 +249,7 @@ Debug (Ctrl + E)
 
 ## GRAX Engage
 
-To access GRAX Engage, navigate to https://<your-app-name>.herokuapp.com/red 
+To access GRAX Engage, navigate to https://`<your-app-name>`.herokuapp.com/red 
 
 ###Credentials
 
