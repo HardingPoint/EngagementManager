@@ -122,7 +122,7 @@ quicker it builds, learns (via AI), and reacts (via Engagement Manager) from you
 	<a href="https://giphy.com/gifs/3o752nFvB9fsXWbF3W/fullscreen" target="_blank"><img src="https://media.giphy.com/media/3o752nFvB9fsXWbF3W/giphy.gif"/></a>
 	
 	
-### 3. Connect Salesforce Objects to GRAX (GRAX RELATE ) 
+### 3. Connect Salesforce Objects to the graph database -  GRAX Salesforce Object Connector
 
  1. Login via the GRAX Connect Tab created in the previous step
  1. Choose Visibility / Objects to connect
@@ -247,9 +247,11 @@ Debug (Ctrl + E)
 [Visit Heroku Add-On Marketplace](https://elements.heroku.com/addons/engagementgraph)
 
 
-## GRAX Engage
+## GRAX Relate 
 
-To access GRAX Engage, navigate to https://`<your-app-name>`.herokuapp.com/red 
+GRAX Relate 
+
+To access GRAX Relate, navigate to https://`<your-app-name>`.herokuapp.com/red 
 
 ###Credentials
 
