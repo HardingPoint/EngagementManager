@@ -6,7 +6,7 @@
   "keywords": ["salesforce","graphdb","neo4j"],
   "addons": [
     {
-      "plan": "graphenedb:chalk",
+      "plan": "graphenedb:dev-free",
       "as": "GraphConnect"
     },
     {
